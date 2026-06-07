@@ -18,4 +18,5 @@ if(pageItem == null) exit();
 if (!pageItem.hasOwnProperty("parentStory")) exit();
 pageItem.locked = false;
 app.toolBoxTools.currentTool = UITools.TYPE_TOOL;
+app.keskmcClickLeftMouseButton(); // for KohakuExtendScriptKeyMouseClick PlugIn.
 ```
